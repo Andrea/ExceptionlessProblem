@@ -38,8 +38,13 @@ _dotCover*/
 ipch/
 obj/
 
+*.xml
+*.txt
+*.profile 
 
 /packages*
+/Source/Code/packages*
+/Backup
 
 [Dd]ebug*/
 [Rr]elease*/
