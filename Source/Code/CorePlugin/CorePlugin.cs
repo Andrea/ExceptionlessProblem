@@ -1,17 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Duality;
+using Exceptionless;
 
-using Duality;
-
-namespace exceptionlessTest
+namespace ExceptionlessTest
 {
 	/// <summary>
 	/// Defines a Duality core plugin.
 	/// </summary>
-    public class exceptionlessTestCorePlugin : CorePlugin
+    public class ExceptionlessTestCorePlugin : CorePlugin
     {
 		// Override methods here for global logic
+		protected override void InitPlugin()
+		{
+			ExceptionlessClient.Current.Startup();
+		}
     }
 }

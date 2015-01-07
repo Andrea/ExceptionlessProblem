@@ -4,7 +4,7 @@
         <name>GamePlugin.core</name>
     </assembly>
     <members>
-        <member name="T:exceptionlessTest.exceptionlessTestCorePlugin">
+        <member name="T:ExceptionlessTest.ExceptionlessTestCorePlugin">
             <summary>
             Defines a Duality core plugin.
             </summary>

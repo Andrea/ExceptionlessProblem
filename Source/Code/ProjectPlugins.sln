@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{02F4D6
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorPlugin", "EditorPlugin\EditorPlugin.csproj", "{78DBC94D-EE9D-4AC0-95ED-91A0AE2F6652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{AFE883F3-72B4-4C7C-A1D1-44EDC09C8F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE883F3-72B4-4C7C-A1D1-44EDC09C8F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE883F3-72B4-4C7C-A1D1-44EDC09C8F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DBC94D-EE9D-4AC0-95ED-91A0AE2F6652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DBC94D-EE9D-4AC0-95ED-91A0AE2F6652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DBC94D-EE9D-4AC0-95ED-91A0AE2F6652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DBC94D-EE9D-4AC0-95ED-91A0AE2F6652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,43 +4,6 @@
     <Y dataType="Float">33</Y>
   </globalGravity>
   <serializeObj dataType="Array" type="Duality.GameObject[]" id="427169525">
-    <item dataType="Struct" type="Duality.GameObject" id="1226567670">
-      <active dataType="Bool">true</active>
-      <children />
-      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3437007712">
-        <_items dataType="Array" type="Duality.Component[]" id="408875228" length="4">
-          <item dataType="Struct" type="exceptionlessTest.ExceptionThrowingComponent" id="2203670102">
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">1226567670</gameobj>
-            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-          </item>
-        </_items>
-        <_size dataType="Int">1</_size>
-        <_version dataType="Int">1</_version>
-      </compList>
-      <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1279076494" surrogate="true">
-        <header />
-        <body>
-          <keys dataType="Array" type="System.Type[]" id="3856282546">
-            <item dataType="Type" id="367425232" value="exceptionlessTest.ExceptionThrowingComponent" />
-          </keys>
-          <values dataType="Array" type="Duality.Component[]" id="4150411850">
-            <item dataType="ObjectRef">2203670102</item>
-          </values>
-        </body>
-      </compMap>
-      <compTransform />
-      <identifier dataType="Struct" type="System.Guid" surrogate="true">
-        <header>
-          <data dataType="Array" type="System.Byte[]" id="3755062786">Sat/JGTnw0S7U4pnUHCpfA==</data>
-        </header>
-        <body />
-      </identifier>
-      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-      <name dataType="String">ExceptionThrowingComponent</name>
-      <parent />
-      <prefabLink />
-    </item>
     <item dataType="Struct" type="Duality.GameObject" id="4012886285">
       <active dataType="Bool">true</active>
       <children />
@@ -250,6 +213,43 @@
       </identifier>
       <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
       <name dataType="String">Camera</name>
+      <parent />
+      <prefabLink />
+    </item>
+    <item dataType="Struct" type="Duality.GameObject" id="170789155">
+      <active dataType="Bool">true</active>
+      <children />
+      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2894033169">
+        <_items dataType="Array" type="Duality.Component[]" id="1196777198" length="4">
+          <item dataType="Struct" type="ExceptionlessTest.ExceptionThrowingComponent" id="1795798243">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">170789155</gameobj>
+            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+          </item>
+        </_items>
+        <_size dataType="Int">1</_size>
+        <_version dataType="Int">1</_version>
+      </compList>
+      <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="4216643488" surrogate="true">
+        <header />
+        <body>
+          <keys dataType="Array" type="System.Type[]" id="1871945915">
+            <item dataType="Type" id="2589672662" value="ExceptionlessTest.ExceptionThrowingComponent" />
+          </keys>
+          <values dataType="Array" type="Duality.Component[]" id="4098418728">
+            <item dataType="ObjectRef">1795798243</item>
+          </values>
+        </body>
+      </compMap>
+      <compTransform />
+      <identifier dataType="Struct" type="System.Guid" surrogate="true">
+        <header>
+          <data dataType="Array" type="System.Byte[]" id="1390015793">dUOd57NKREq/VqdosWokEg==</data>
+        </header>
+        <body />
+      </identifier>
+      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+      <name dataType="String">ExceptionThrowingComponent</name>
       <parent />
       <prefabLink />
     </item>

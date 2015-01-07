@@ -63,6 +63,9 @@
     <Compile Include="Properties\GameRes.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\App.config">
+      <Link>App.config</Link>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

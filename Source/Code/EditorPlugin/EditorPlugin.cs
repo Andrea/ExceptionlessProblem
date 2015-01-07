@@ -5,12 +5,12 @@ using System.Text;
 
 using Duality.Editor;
 
-namespace exceptionlessTest.Editor
+namespace ExceptionlessTest.Editor
 {
 	/// <summary>
 	/// Defines a Duality editor plugin.
 	/// </summary>
-    public class exceptionlessTestEditorPlugin : EditorPlugin
+	public class ExceptionlessTestEditorPlugin : EditorPlugin
 	{
 		public override string Id
 		{
